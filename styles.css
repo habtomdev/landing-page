@@ -18,7 +18,7 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
@@ -30,12 +30,6 @@ ul {
     margin-bottom: 30px;
     background-color: #D4A373;
 }
-
-/* #background {
-    background-image: url(imgs/background\ 3.jpg);
-    background-size: cover; 
-    background-position: center;
-} */
 
 .logo-img
 {
@@ -116,6 +110,7 @@ img {
     gap: 25px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .info-text {
@@ -145,6 +140,7 @@ img {
     color: black;
     padding: 50px 150px;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .quote-text
@@ -160,9 +156,11 @@ img {
     align-self: flex-end;
 }
 
+/* sign-up page */
+
 .signup-container {
     display: flex;
-    margin: 25px 35px 25px 35px;
+    margin: 50px 35px 50px 35px;
     background-color: #CCD5AE;
     padding: 50px 100px;
     justify-content: space-evenly;
@@ -192,3 +190,16 @@ img {
 .membership-sub-text {
     font-size: 20px;
 }
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4A373;
+    height: 65px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
