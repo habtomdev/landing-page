@@ -1,6 +1,10 @@
+* {
+    font-family: "Playwrite NG Modern", sans-serif;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    background-color: burlywood;
+    background-color: #f0dfaa;
 }
 
 a {
@@ -18,13 +22,23 @@ ul {
     padding: 0;
 }
 
+/* Header Section */
+
 .header {
     padding: 15px 120px 80px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+#background {
+    background-image: url(imgs/background\ 3.jpg);
+    background-size: cover; 
+    background-position: center;
 }
 
 .logo-img
 {
-    height: 50px;
+    height: 100px;
     width: auto;
 }
 
@@ -63,6 +77,7 @@ ul {
 
 .img-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 img {
@@ -77,14 +92,44 @@ img {
     font-size: 15px;
     border-radius: 10px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
-.title,
-.sub-text,
-.signup-btn {
-    font-family: "Playwrite NG Modern", cursive;
+/* Crew info section */
+
+.sub-title {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    flex: 0 1 21%;
+    text-align: center;
+}
+
+.crew-text {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crew-photo {
+    width: 200px;
+}
 
 
 
